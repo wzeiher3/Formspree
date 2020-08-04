@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -8,3 +7,26 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+      <form>
+        <label for="Name">Name</label>
+        <input id="Name" type="text" name="name"
+         autofocus="on" maxlength="20" required />
+      </form>
+
+      <form>
+        <label for="Email">Email</label>
+        <input id="Email" type="text" name="email"
+         autofocus="on" maxlength="20" required />
+      </form>
+
+      <form>
+        <label for="form-message">Your message:</label>
+        <textarea id="form-message" name="message"
+        rows="4" cols="25"></textarea>
+      </form>
+      
+      <form>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+  </body>
